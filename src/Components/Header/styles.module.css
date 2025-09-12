@@ -1,54 +1,32 @@
 .header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: var(--bg-color-light);
-    z-index: 1000;
-    transition: 0.4s;
+  width: 100%;
+  height: 56px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.nav {
-    height: 60px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 2rem;
-    color: var(--title-color);
+.title {
+  font-weight: 700;
+  font-size: 32px;
+  font-family: var(--font-comfortaa);
+  color: var(--black);
 }
 
-.nav__logo {
-    color: var(--title-color);
-    font-weight: 500;
-    font-size: 1.5rem;
-    text-decoration: none;
+.navList {
+  display: flex;
+  gap: 48px;
+  list-style: none;
 }
 
-.nav__menu {
-    height: 100%;
-    display: flex;
-    align-items: center;
+.navLink {
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--black);
+  text-decoration: none;
 }
 
-.nav__list {
-    display: flex;
-    gap: 2rem;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-}
-
-.nav__link {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    text-decoration: none;
-    color: var(--text-color);
-    font-weight: 500;
-    font-size: 1rem;
-    transition: color 0.3s;
-}
-
-.nav__link:hover {
-    color: var(--title-color);
+.navLink:hover {
+  text-decoration: underline;
+  transition: 0.1s;
 }

@@ -1,0 +1,26 @@
+.field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.label {
+  margin-bottom: 4px;
+  text-align: left;
+}
+
+.input {
+  border: 1px solid #ccc;
+  border-radius: 48px;
+  padding: 8px;
+  outline: none;
+  transition: border 0.3s, box-shadow 0.3s;
+  padding: 8px;
+}
+
+.input:focus {
+   border: 1px solid #9c9c9c;
+  box-shadow: 0 0 5px rgba(136, 136, 136, 0.5); 
+}
+
+

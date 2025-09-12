@@ -1,0 +1,17 @@
+.form {
+    justify-content: center;
+    align-items: center;
+    padding: 52px 50px;
+    border-radius: 12px;
+    max-width: 500px;
+    margin: 20px auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.title {
+    font-size: 24px;
+    text-align: left;
+    padding-bottom: 32px;
+}
+
