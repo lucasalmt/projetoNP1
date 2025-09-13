@@ -1,8 +1,10 @@
 :root {
   --black: #25282b;
   --black2: #2c2b2c;
+  --black3: black;
   --white: #ffffff;
   --grey: #828282;
+  --bgcolor: #fffdfa;
   --font-comfortaa: 'Comfortaa', sans-serif;
   --font-playfair: 'Playfair Display', serif;
   --font-nunito: 'Nunito', sans-serif;
@@ -17,7 +19,7 @@
 
 html {
   scroll-behavior: smooth;
-  background-color: #F5F3EF;
+  background-color: var(--bgcolor);
   width: 100vw;
 }
 
