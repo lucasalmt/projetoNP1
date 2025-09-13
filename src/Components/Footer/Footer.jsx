@@ -4,7 +4,7 @@ import styles from './styles.module.css';
 const Footer = () => {
   return (
     <footer className={styles.rodape}>
-      <p>Travis Scott 2025</p>
+      <p>CLS</p>
     </footer>
   );
 };

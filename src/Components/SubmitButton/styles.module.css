@@ -1,7 +1,6 @@
 .button {
-  background-color: #000;
+  background-color: var(--black3);
   color: white;
-    border-radius: 24px;
   padding: 16px 20px;
   border: none;
   cursor: pointer ;
@@ -15,5 +14,5 @@
 .button:hover {
   background-color: #ffffff;
   color: #000;
-  border: 2px solid #000;
+  border: 1px solid #000;
 }

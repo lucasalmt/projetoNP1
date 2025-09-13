@@ -4,13 +4,39 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: var(--bgcolor);
+  padding: 50px 64px;
+  position: relative;
+  position: fixed;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.leftIcons {
+  display: flex;
+  gap: 44px;
+}
+
+.leftIcons img {
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+.leftIcons img:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
 }
 
 .title {
   font-weight: 700;
-  font-size: 32px;
-  font-family: var(--font-comfortaa);
+  font-size: 40px;
+  font-family: var(--font-playfair);
   color: var(--black);
+  transform: scaleX(-1);
+  font-style: italic;
+  text-align: right;
 }
 
 .navList {
@@ -20,13 +46,14 @@
 }
 
 .navLink {
-  font-weight: 500;
-  font-size: 18px;
+  font-weight: 400;
+  font-size: 16px;
   color: var(--black);
+  font-family: var(--font-roboto);
   text-decoration: none;
 }
 
 .navLink:hover {
-  text-decoration: underline;
+  font-weight: bold;
   transition: 0.1s;
 }

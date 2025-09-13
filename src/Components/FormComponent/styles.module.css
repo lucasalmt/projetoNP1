@@ -1,17 +1,30 @@
 .form {
     justify-content: center;
     align-items: center;
-    padding: 52px 50px;
+    padding: 20px 50px;
     border-radius: 12px;
     max-width: 500px;
-    margin: 20px auto;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 20px auto 50px;
     background-color: white;
 }
 
+.form h2 {
+    padding-bottom: 60px;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 50;
+}
+
 .title {
-    font-size: 24px;
+    font-size: 20px;
+    font-weight: 50;
     text-align: left;
     padding-bottom: 32px;
+}
+
+.formContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px; 
 }
 

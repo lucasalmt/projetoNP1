@@ -3,8 +3,10 @@
   justify-content: center;
   align-items: center;
   height: 80px;
-  background-color: var(--black2);
+  background-color: var(--black3);
   color: var(--white);
-  font-family: var(--font-roboto);
-  font-size: 16px;
+  font-family: var(--font-playfair);
+  font-size: 40px;
+  transform: scaleX(-1);
+font-style: italic;
 }
