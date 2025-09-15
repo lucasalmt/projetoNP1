@@ -1,4 +1,4 @@
-https://baxsm.github.io/clothing-lp/#home - inspiração
+
 
 <<<<<<< HEAD
 # React + Vite
