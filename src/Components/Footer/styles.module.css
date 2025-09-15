@@ -8,5 +8,24 @@
   font-family: var(--font-playfair);
   font-size: 40px;
   transform: scaleX(-1);
-font-style: italic;
+  font-style: italic;
 }
+
+/* Responsividade */
+
+@media (max-width: 768px) {
+  .rodape {
+    font-size: 28px;
+    height: 70px;
+  }
+}
+
+@media (max-width: 480px) {
+  .rodape {
+    font-size: 20px;
+    height: 60px;
+    padding: 10px;
+    text-align: center;
+  }
+}
+

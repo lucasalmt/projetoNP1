@@ -89,3 +89,87 @@
   background-size: contain;
 }
 
+/* Responsividade */
+
+/* Tablets (até 1024px) */
+@media (max-width: 1024px) {
+  .projetosContainer {
+    grid-template-columns: 1fr; /* só 1 coluna */
+    gap: 32px;
+  }
+
+  .projetosPai {
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .projetosAlbuns {
+    width: 100%;
+    padding: 16px;
+    gap: 24px;
+  }
+
+  .projetosImagem img {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .projetos h1 {
+    font-size: 36px;
+  }
+
+  .projetosAlbuns h2 {
+    font-size: 14px;
+  }
+
+  .projetosAlbuns p {
+    font-size: 11px;
+  }
+
+  .sobremimBtn {
+    font-size: 16px;
+    padding: 6px 18px;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+* {
+  min-width: 0;
+  word-wrap: break-word;
+}
+
+
+
+@media (max-width: 480px) {
+  .projetos {
+    gap: 24px;
+    margin-bottom: 40px;
+  }
+
+  .projetos h1 {
+    font-size: 28px;
+  }
+
+  .projetosAlbuns {
+    gap: 16px;
+    padding: 12px;
+  }
+
+  .projetosAlbuns p {
+    font-size: 10px;
+  }
+
+  .projetosImagem img {
+    max-width: 280px;
+  }
+}
+
+

@@ -78,3 +78,58 @@
   color: var(--white);
 }
 
+/* Responsividade */
+@media (max-width: 768px) {
+  .aboutMe {
+    padding: 120px 30px;
+    background-position: center;
+  }
+
+  .sobremimPai {
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .sobremimInfo h1 {
+    font-size: 42px;
+  }
+
+  .sobremimInfo p {
+    font-size: 18px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .aboutMe {
+    padding: 80px 20px;
+  }
+
+  .sobremimInfo {
+    gap: 20px;
+  }
+
+  .sobremimInfo h1 {
+    font-size: 28px;
+  }
+
+  .sobremimInfo p {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .sobremimBotoes {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .sobremimBtn {
+    width: 100%;
+    font-size: 14px;
+    padding: 6px 16px;
+  }
+}
+
+

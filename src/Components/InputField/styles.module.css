@@ -22,4 +22,38 @@
   box-shadow: 0 0 5px rgba(136, 136, 136, 0.5); 
 }
 
+/* Responsividade */
+@media (max-width: 768px) {
+  .field {
+    margin-bottom: 12px;
+  }
+
+  .input {
+    padding: 6px;
+    font-size: 14px;
+  }
+
+  .label {
+    font-size: 14px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .field {
+    margin-bottom: 10px;
+  }
+
+  .input {
+    width: 100%;
+    font-size: 13px;
+    padding: 6px;
+  }
+
+  .label {
+    font-size: 12px;
+  }
+}
+
+
 
