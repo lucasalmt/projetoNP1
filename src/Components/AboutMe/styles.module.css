@@ -36,6 +36,7 @@
   font-weight: 600;
   font-family: var(--font-playfair);
   color: var(--white);
+  text-align: center;
 }
 
 .sobremimInfo p {
