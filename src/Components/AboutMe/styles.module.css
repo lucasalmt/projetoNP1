@@ -4,9 +4,12 @@
   align-items: center;
   padding: 200px 50px;
   margin-bottom: 42px;
-  background-image:
-    linear-gradient(to right , rgba(0, 0, 0, 0.900), rgba(0, 0, 0, 0.500)),
-    url('/BgImage.webp');
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.9),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("/BgImage.webp");
   background-size: cover;
   background-position: right center;
   background-repeat: no-repeat;
@@ -100,7 +103,6 @@
   }
 }
 
-
 @media (max-width: 480px) {
   .aboutMe {
     padding: 80px 20px;
@@ -131,5 +133,3 @@
     padding: 6px 16px;
   }
 }
-
-

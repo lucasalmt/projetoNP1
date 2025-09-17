@@ -16,6 +16,7 @@ function InputField({label, type, value, onChange, name }) {
         value={value}
         onChange={onChange}
         className={styles.input}
+        required
       />
     </div>
   );
