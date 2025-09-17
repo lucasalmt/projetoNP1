@@ -5,7 +5,7 @@
     border-radius: 12px;
     max-width: 500px;
     margin: 20px auto 50px;
-    background-color: white;
+    background-color: var(--bgcolor);
 }
 
 .form h2 {

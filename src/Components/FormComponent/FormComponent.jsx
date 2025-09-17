@@ -30,7 +30,7 @@ function FormComponent() {
     <section id="login">
       <form onSubmit={handleSubmit} className={styles.form}>
         <h2>CONECTE-SE AQUI</h2>
-        <h3 className={styles.title}>Criar conta</h3>
+        <h3 className={styles.title}><strong>Criar conta</strong></h3>
 
         <InputField
           label="Nome"
